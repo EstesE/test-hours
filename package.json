@@ -1,0 +1,14 @@
+{
+  "name": "test-hours",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "debug": "^4.0.1"
+  }
+}
