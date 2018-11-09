@@ -62,7 +62,6 @@ function getBusinessDays(property, numOfDays) {
             days.push({date: moment().add(i-1, 'day').format('YYYY-MM-DD'), day: moment().add(i-1, 'day').format('dddd')});
         }
 
-        let w = 0;
         let h = 0;
         let today = { date: moment().format('YYYY-MM-DD'), day: moment().format('dddd') };
 
